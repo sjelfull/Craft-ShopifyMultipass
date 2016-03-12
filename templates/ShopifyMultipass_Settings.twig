@@ -1,0 +1,34 @@
+{#
+/**
+ * Shopify Multipass plugin for Craft CMS
+ *
+ * Shopify Multipass Settings.twig
+ *
+ * @author    Fred Carlsen
+ * @copyright Copyright (c) 2016 Fred Carlsen
+ * @link      http://sjelfull.no
+ * @package   ShopifyMultipass
+ * @since     1.0.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{% includeCssResource "shopifymultipass/css/ShopifyMultipass_Style.css" %}
+{% includeJsResource "shopifymultipass/js/ShopifyMultipass_Script.js" %}
+
+{{ forms.textField({
+    label: 'Multipass secret',
+    instructions: 'Find your secret by logging into your shop and visiting <a href=""> Settings > Checkout page</a>. Scroll down to the Customer Accounts section and ensure that you have either Accounts are optional selected or Accounts are required.',
+    id: 'multipassSecret',
+    name: 'multipassSecret',
+    value: settings['multipassSecret']})
+}}
+
+{{ forms.textField({
+    label: 'Shopify Shop URL',
+    instructions: 'Your shop URL (https://xxxxxxxxx.myshopify.com)',
+    id: 'shopUrl',
+    name: 'shopUrl',
+    value: settings['shopUrl']})
+}}
