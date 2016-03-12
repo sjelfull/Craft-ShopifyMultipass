@@ -7,7 +7,7 @@ Allow a Craft user to be logged in to Shopify through Multipass
 To install Shopify Multipass, follow these steps:
 
 1. Download & unzip the file and place the `shopifymultipass` directory into your `craft/plugins` directory
-2.  -OR- do a `git clone https://github.com/sjelfull/shopifymultipass.git` directly into your `craft/plugins` folder.  You can then update it with `git pull`
+2.  -OR- do a `git clone https://github.com/sjelfull/Craft-ShopifyMultipass.git` directly into your `craft/plugins` folder.  You can then update it with `git pull`
 3. Install plugin in the Craft Control Panel under Settings > Plugins
 4. The plugin folder should be named `shopifymultipass` for Craft to see it.  GitHub recently started appending `-master` (the branch name) to the name of the folder for zip file downloads.
 
