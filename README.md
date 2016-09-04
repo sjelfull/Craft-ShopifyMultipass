@@ -1,6 +1,6 @@
 # Shopify Multipass plugin for Craft CMS
 
-Allow a Craft user to be logged in to Shopify through Multipass
+Allow a Craft user to be logged in to [Shopify](https://www.shopify.com/?ref=sjelfull) through Multipass
 
 ## Installation
 
